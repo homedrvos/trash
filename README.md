@@ -6,14 +6,14 @@ Keeping the trash in your ./vendor dir to a minimum.
 
 Make sure you're using go1.6 or later version.
 
- 1. Download and extract [latest release](https://github.com/rancher/trash/releases/latest) to your PATH.
-    Alternatively, install or update current development version with `go get -u github.com/rancher/trash`.
+ 1. Download and extract [latest release](https://github.com/burmilla/trash/releases/latest) to your PATH (does not work now).
+    Alternatively, install or update current development version with `go get -u github.com/homedrvos/trash`.
  2. Copy `vendor.conf` file to your project and edit to your needs.
  3. Run `trash`.
 
 `vendor.conf` (in your project root dir) specifies the revisions (git tags or commits, or branches - if you're drunk) of the libraries to be fetched, checked out and copied to ./vendor dir. For example:
 ```
-github.com/rancher/trash
+github.com/homedrvos/trash
 
 github.com/Sirupsen/logrus                      v0.8.7    https://github.com/imikushin/logrus.git
 github.com/codegangsta/cli                      b5232bb

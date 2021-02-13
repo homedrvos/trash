@@ -19,8 +19,8 @@ import (
 	"github.com/urfave/cli"
 
 	"github.com/Masterminds/glide/godep"
-	"github.com/rancher/trash/conf"
-	"github.com/rancher/trash/util"
+	"github.com/homedrvos/trash/conf"
+	"github.com/homedrvos/trash/util"
 	"gopkg.in/yaml.v2"
 )
 
