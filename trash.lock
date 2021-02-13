@@ -1,4 +1,4 @@
-package: github.com/rancher/trash
+package: github.com/homedrvos/trash
 import:
 - package: github.com/Masterminds/glide
   version: fb6c62596ce1b29128f1ef7e329c367a648ee9b1
